@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box; 
+  background-color: #fff8f8;
+}
+.app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #146C94;
+}
+.title > :nth-child(2){
+  color:#19A7CE;
+}
+.shortener {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 3%;
+  width: 60%;
+  height: 120px;
+  box-shadow: 1px 2px 4px 4px rgba(20,108,148,0.1);
+  padding: 20px;
+  background-color: #fff8f8;
+}
+.shortener input, button {
+  height: 30px;
+  padding: 0 10px;
+}
+.shortener button {
+  cursor:pointer;
+  width: 10%;
+}
+.shortener input {
+  border: 1px solid #AFD3E2;
+  color: #146C94;
+  width: 90%;
+}
+.shortener input:focus {
+  border: 1px solid #19A7CE;
+  outline: none;
+}
+.shortener form > button {
+  background-color: #19A7CE;
+  border: none;
+  color: white;
+}
+::placeholder { 
+  color: #AFD3E2;
+  opacity: 1; 
+}
+.shortener form > button:hover {
+  background-color: #146C94;
+}
+
+/* Responsive style for mobile & ipad */
+@media only screen and (max-width: 480px) {
+  .shortener {
+    width: 80%;
+    height: 150px;
+  }
+  .shortener input {
+    width: 100%;
+  }
+  .shortener button {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 900px) {
+  .shortener {
+    width: 80%;
+  }
+  .shortener input {
+    width: 75%;
+  }
+  .shortener button {
+    width: 25%;
+  }
+}
+
+/* .shortener_view{
+  margin-top: 20px;
+  border: 1px solid gainsboro;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  color: rgb(64, 64, 66);
+  align-items: center;
+}
+.shortener_view button {
+  background-color: transparent;
+  border: none;
+  color: gray;
+}
+.shortener_view button:hover {
+  color: rgb(64, 64, 66);
+} */
