@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box; 
-  background-color: #fff8f8;
+  background-color: white;
 }
 .app{
   display: flex;
@@ -23,8 +23,9 @@
   margin-top: 3%;
   width: 60%;
   height: 120px;
-  box-shadow: 1px 2px 4px 4px rgba(20,108,148,0.1);
+  box-shadow: 2px 2px 4px 2px rgba(20, 108,	148, 0.3);
   padding: 20px;
+  background-color: whitesmoke;
 }
 .shortener input, button {
   height: 30px;
@@ -33,11 +34,13 @@
 .shortener button {
   cursor:pointer;
   width: 10%;
+  border-radius: 2px;
 }
 .shortener input {
   border: 1px solid #AFD3E2;
   color: #146C94;
   width: 90%;
+  border-radius: 2px;
 }
 .shortener input:focus {
   border: 1px solid #19A7CE;
