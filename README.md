@@ -5,9 +5,9 @@ AWS Lambda is used to create an API to save these objects. The website is served
 
 # Components #
 •	Setup S3 bucket<br>
-•	Create basic IAM role for our Lambda routine<br>
 •	Create Lambda function to create the shortened key and save an object to S3<br>
 •	Create API Gateway to front the Lambda routine for the POST<br>
+•	Create basic IAM role for our Lambda to get a bcuket file where saved json files<br>
 •	Assign custom URL to S3 path<br>
 
 # architecture #
