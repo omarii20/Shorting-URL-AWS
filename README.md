@@ -6,9 +6,9 @@ AWS Lambda is used to create an API to save these objects. The website is served
 # Components #
 •	Setup S3 bucket<br>
 •	Create Lambda function to create the shortened key and save an object to S3<br>
-* CloudFront is a user interface front<br>
+• CloudFront is a user interface front<br>
 •	Create API Gateway to lambda function<br>
-* Create POST/GET gateway API from the front to return a result from lambda function<br>
+• Create POST/GET gateway API from the front to return a result from lambda function<br>
 •	Create basic IAM role for our Lambda to get a bcuket file where saved json files<br>
 •	Returend the respone to UI<br>
 
